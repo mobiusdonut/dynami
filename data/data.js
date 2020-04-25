@@ -161,10 +161,6 @@ var data =
         answer: "50"
     },
     {
-        problem: "Astronauts are setting up a deep-space communication antenna on an asteroid. See the accompanying schematic figure. The asteroid is perfectly spherical with radius 100 kilometers. The astronauts erect 2 poles 500 meters tall perpendicular to the surface of the asteroid, located 10 km apart, measured along the surface of the asteroid. Between the poles is an antenna wire that is a circular arc concentric with the spherical asteroid. How much longer in meters is the antenna wire than the ground distance between the poles?",
-        answer: "50"
-    },
-    {
         problem: "How many positive 6-digit palindromes are divisible by 11?",
         answer: "900"
     },
