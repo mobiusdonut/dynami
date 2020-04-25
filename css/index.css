@@ -122,3 +122,7 @@ button.small:hover {
     margin: auto;
     display: block;
 }
+
+#overflow {
+    display: none;
+}

@@ -37,6 +37,12 @@
                 li[i].style.display = "none";
             }
         }
+        if (count >= 10 && filter.length > 0) {
+                document.getElementById("overflow").style.display = "block";
+        }
+        else {
+            document.getElementById("overflow").style.display = "none";
+        }
       }
     </script>
 </head>
@@ -49,6 +55,7 @@
                 <h1>Dynami</h1>
                 <div id="bigdiv">
                     <input type="text" id="search" onkeyup="search()" placeholder="Search for Aretelabs problems..">
+                    <p id="overflow">First 10 results</p>
                     <ul id="probs">
                     <ul>
                 </div>
