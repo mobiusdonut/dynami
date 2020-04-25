@@ -88,4 +88,68 @@ var data =
         problem: "Let f(x) = 9x2, A = (a, f(a)) for a > 0, and B = (a, 0). If thereflection of B across the line connecting A with the origin lies on they-axis, what is 36a?",
         answer: "4"
     },
+    {
+        problem: "Triangle ABC is inscribed in a circle. The line ←→DE is tangent to thecircle at B. The measure of ∠CAB is 50◦. What is the measure indegrees of ∠CBE?",
+        answer: "50"
+    },
+    {
+        problem: "Let b be a positive integer greater than 1. Determine all values of bsuch that there are exactly 306 two-digit numbers with a base of b.",
+        answer: "18"
+    },
+    {
+        problem: "There are 2 identical apricot colored cards, 2 identical blue cards, and2 identical coral colored cards. In how many distinct ways can theybe arranged in a row such that no two cards of the same color areadjacent?",
+        answer: "30"
+    },
+    {
+        problem: "Two fair six-sided dice, one is red and the other is green, are rolled.The sum of the spots showing on the top faces of the two dice is 6.What is the probability that the red die has 2 spots showing on thetop face?",
+        answer: "1/5"
+    },
+    {
+        problem: "In 4ABC, AB = cos A and AC = 1. What is the maximum possiblearea of 4ABC ?",
+        answer: "1/4"
+    },
+    {
+        problem: "A square of side-length 4 is the base of a regular pyramid with height5. The circumscribing circle of the square is the base of a cone withthe same vertex as the pyramid. See the accompanying figure. Thevolume of the space inside the cone but outside the pyramid can beexpressed as (aπ − b)/c where a, b, and c are positive integers withgcd(a, b, c) = 1. What is a + b + c?",
+        answer: "123"
+    },
+    {
+        problem: "Let x, y, and z be integers with 2 < x < y < z and let z be even. Ifx2 + y2 = z2 + 4,what is the least possible sum of x + y + z ?",
+        answer: "38"
+    },
+    {
+        problem: "A number N consists of three non-zero digits. The sum of the other fivethree-digit numbers formed with the same three digits is 2017. Whatis N?",
+        answer: "425"
+    },
+    {
+        problem: "There are 780 families and each has a car, radio, and TV. There are 6kinds of cars, 2 kinds of radios, and 5 kinds of TV available. What isthe least possible number of families that could have the same kind ofcar, radio, and TV?",
+        answer: "13"
+    },
+    {
+        problem: "Simplify3q√169 + √196.",
+        answer: "3"
+    },
+    {
+        problem: "The sum of three numbers in arithmetic progression is 39. Their prod-uct is 1560. What is the largest of the three numbers?",
+        answer: "20"
+    },
+    {
+        problem: "Shown below is part of an 8 by 8 table filled with numbers in the patternindicated. Compute the sum of the numbers in the diagonal that runsfrom the top left to the bottom right.2 -4 6 -8 10 -12 14 -1618 -20 22 -24 26 -28 30 -3234 -36 38 -40 . . . . . . . . . . . .............",
+        answer: "-72"
+    },
+    {
+        problem: "Note that the last three digits of 1 · 144 = 144 are 144. What is theleast integer n greater than 1 such that n · 144 also ends in 144, i.e.n · 144 = . . . 144?",
+        answer: "126"
+    },
+    {
+        problem: "A sphere of diameter 12 sits in a hole which has the shape of the frustumof a cone. The sphere only touches the circular rim of the hole. Theheight of the top of the sphere above the top of the hole is 9, as shownin the diagram. What is the diameter of the wider base of the frustumof the cone?",
+        answer: "(D) 6√3"
+    },
+    {
+        problem: "Four friends Alice, Bob, Carol and Dave take turns rolling a singlefair, six-sided die. Alice rolls first, then Bob, Carol and Dave in thatorder, continuing in order until someone rolls a “6” to win. What isthe probability that Alice wins?",
+        answer: "(B) 216671"
+    },
+    {
+        problem: "The measured values of x and y are x = 3.5 ± 0.3 and y = 2.9 ± 0.3.Find the maximum possible value of |xy − 10.3|.",
+        answer: "1.98"
+    },
 ]

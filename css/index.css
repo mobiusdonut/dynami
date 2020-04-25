@@ -108,6 +108,7 @@ button.small:hover {
 
 .main {
     width: 500px;
+    margin: 12px;
     justify-self: center;
     align-self: center;
     background-color: white;
