@@ -60,4 +60,32 @@ var data =
         problem: "If cos x + cos2 x = 0, what is the value of sin4 x − sin2 x?",
         answer: "0"
     },
+    {
+        problem: "Alice is passing a truck on the highway. The truck is traveling at aconstant speed of 55 miles per hour and the truck is 52.8 feet long.Alice is passing at 60 miles per hour. How many seconds does it takeAlice to pass the truck? (A mile is 5280 feet.)",
+        answer: "7.2"
+    },
+    {
+        problem: "Determine the product of all values of x such that the sum of x2− 2and 4x2−1xis 0.",
+        answer: "-8"
+    },
+    {
+        problem: "If x is in radians, find the number of solutions in [0, 2π) tosin x cos x =1 − cos 2x2.",
+        answer: "4"
+    },
+    {
+        problem: "A number abc has three different non-zero digits. The sum of all 6three-digit numbers formed with the same three digits in any order is3108. What is the sum of the digits a + b + c ?",
+        answer: "14"
+    },
+    {
+        problem: "Driveways in some Florida towns are composed of bricks in variouspatterns. Shown is one such pattern consisting of bricks 2 units by 1unit. In terms of units, what is the square of the distance betweenpoints A and B where both are corner points of a brick?",
+        answer: "194"
+    },
+    {
+        problem: "A hemisphere of radius 3 is concentric with a hemisphere of radius 9and the flat surface of the small hemisphere is glued to the flat surfaceof the larger hemisphere. See the accompanying figure. The surfacearea of the resulting solid can be written as aπ where a is an integer.What is a?",
+        answer: "252"
+    },
+    {
+        problem: "Let f(x) = 9x2, A = (a, f(a)) for a > 0, and B = (a, 0). If thereflection of B across the line connecting A with the origin lies on they-axis, what is 36a?",
+        answer: "4"
+    },
 ]
