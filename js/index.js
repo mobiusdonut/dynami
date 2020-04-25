@@ -1,6 +1,4 @@
-"use strict";
-$(document).ready(function() {
-
+$(document).ready(() => {
     for (var i = 0; i < data.length; i++) {
         var li = document.createElement("li");
         var content = document.createElement("div");
@@ -37,4 +35,38 @@ $(document).ready(function() {
         probs.appendChild(li);
       }
   
-  }); // end ready()
+  });
+
+  const search = () => {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('search');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("probs");
+    li = ul.getElementsByTagName('li');
+
+    var count = 0;
+
+    if (filter.length > 0) {
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("button")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1 && count <= 10) {
+                li[i].style.display = "block";
+                count += 1;
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+    else {
+        for (i = 0; i < li.length; i++) {
+            li[i].style.display = "none";
+        }
+    }
+    if (count >= 10 && filter.length > 0) {
+            document.getElementById("overflow").style.display = "block";
+    }
+    else {
+        document.getElementById("overflow").style.display = "none";
+    }
+  }
