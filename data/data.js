@@ -304,4 +304,312 @@ const data =
         problem: "What is the smallest positive number N such that when N is divided by each of 2/3, 4/7, and 5/4, the result is an integer?",
         answer: "20"
     },
+    {
+        problem: "Isosceles △ABC has sides AB=AC=5 and BC=6. The line through A parallel to BC intersects the line through B parallel to AC at C′. The line through B parallel to AC intersects the line through C parallel to AB at A′ The line through C parallel to AB intersects the line through A parallel to BC at B′. What is the area of △A′B′C′?",
+        answer: "48"
+    },
+    {
+        problem: "What is the sum of all 4-digit integers that can be made from the digits 2, 4, 6, 8 if each digit can be used only once in making a particular 4-digit number?",
+        answer: "133320"
+    },
+    {
+        problem: "A circle whose center is at B(0, 20) is tangent to the lines y = 2x and y = −2x. What is the x-value of the point of tangency in the first quadrant?",
+        answer: "8"
+    },
+    {
+        problem: "What is the maximum value for y among all solutions to the following system of equations? 5x − 2y = −4 x − 1 5 = 3 5y.",
+        answer: "3"
+    },
+    {
+        problem: "The set of all real values of k such that each of the following three equations has two different real solutions can be written as k < A. What is the value of A? kx2 + 4x + 4 = 0, x2 + 4kx + 4 = 0, x2 + 4x + 4k = 0",
+        answer: "-1"
+    },
+    {
+        problem: "If 0.375 = 0.14b where b is the base, what is the positive value for b?",
+        answer: "5"
+    },
+    {
+        problem: "Given △ABC with AB = 6, AC = 10 and AD = 6 where D is the midpoint of BC, the area of △ABC can be written as a√b where the prime factorization of b has no squares. What is the sum a + b?",
+        answer: "22"
+    },
+    {
+        problem: "Let x be an integer such that −500 ≤ x ≤ 500. Determine the number of values of x such that the values of 5 + x 3 + x lie no further from 1 than 0.01.",
+        answer: "602"
+    },
+    {
+        problem: "In △ABC, BD=DC, BA⊥CA, AD⊥BF, AE = 4 and BE = 8. The value of sin(∠FBC) can be written in simplest terms as a b. What does the product ab equal?",
+        answer: "15"
+    },
+    {
+        problem: "A circle CP with center P has radius 1 and another circle CQ with center Q has radius 2. The distance from P to Q is 5. The tangents to CP from Q intersect CQ at A and B. The tangents to CQ from P intersect CP at C and D. What is the ratio AB/CD of the lengths of the segments AB and CD?",
+        answer: "(C) 1"
+    },
+    {
+        problem: "Let ⌊x⌋ represent the greatest integer less than or equal to x. Thus, ⌊3.7⌋ = 3. For positive x and y, what is the sum of the areas of the regions in the coordinate plane of the solution set to ⌊x⌋ · ⌊y⌋ = 8 ?",
+        answer: "4"
+    },
+    {
+        problem: "At a convention for military people, four soldiers, a captain and a general pose in a line for a picture. In the photo, the general should always be to the right, but not necessarily the immediate right, of the captain. How many arrangements of people are possible for the photo?",
+        answer: "360"
+    },
+    {
+        problem: "Representing the base-10 fraction 15 as an expansion in base-2, the result is an infinite repeating binary number of the form 0.a1a2 ...aka1a2 ...aka1a2 ··· = 0.a1a2 ...ak. where each ai is either 0 or 1, and the length of the repeating block is k. What a1 +a2 +···+ak +k, that is, what is the number of the non-zero bits in the block plus the length of the block?",
+        answer: "6"
+    },
+    {
+        problem: "The complex number z is a solution of the equation z2 − z + 1 = 0 What is the value of z2017 + 1 z2017",
+        answer: "1"
+    },
+    {
+        problem: "Compute the area of the region bounded by |x|+y ≤ 4 and |x|+2y ≥ 2.",
+        answer: "18"
+    },
+    {
+        problem: "Let A be an appropriately large positive integer and bases b, c, and d be integers greater than 1. If AAd AAc = AAb and d ≤ 100, what is the largest possible value of the sum b + c?",
+        answer: "34"
+    },
+    {
+        problem: "For x in radians with 0 ≤ x ≤ 2018π, how many solutions are there to sinx = sin2x?",
+        answer: "4037"
+    },
+    {
+        problem: "For angles A and B in degrees, if cosAsinB = 1, compute sinAcosB.",
+        answer: "0"
+    },
+    {
+        problem: "If a, b and c are real numbers that make the following equality (n+2)2 = a(n−1)2 +bn2 +c(n+1)2 true for all integers n, what is a2 + b2 + c2?",
+        answer: "19"
+    },
+    {
+        problem: "How many solutions are there to the equation x2 2 = ⌊x⌋,where ⌊x⌋ is the floor function, the greatest integer less than or equal to x?",
+        answer: "3"
+    },
+    {
+        problem: "Six teams are invited for a state high school basketball tournament, and the first round will feature three games played simultaneously on three courts, pairing the teams at random. Three of the teams are from Circleton, the remaining 3 teams are each from different cities. The probability that two teams from Circleton will not be paired against aeach other in the first round can be written in lowest terms as b . What is a + b?",
+        answer: "7"
+    },
+    {
+        problem: "Triangle ABC has a right angle at B and BC > AB. Points D and E are located on AC and BC so that AB = BD = DE = EC. What is the angle measure in degrees of ∠BDE?",
+        answer: "90"
+    },
+    {
+        problem: "What is the positive difference of the solutions to the equation 15 √x = 8 − √x",
+        answer: "16"
+    },
+    {
+        problem: "What is the least integer N such that the decimal expansion of N! ends in exactly 10 zeros?",
+        answer: "45"
+    },
+    {
+        problem: "If the letters in NOONTOON are randomly arranged in a row, the probability that the three N’s are adjacent is, in simplest terms, a b. What is a+b?",
+        answer: "31"
+    },
+    {
+        problem: "What is the ordered triple solution (x, y, z) in integers to the following system? x + xyz = 87 y + xyz = 88 z + xyz = 91 Express you answer in the form abc.",
+        answer: "347"
+    },
+    {
+        problem: "What is the least value of p such that the expression −x2−px+p is non-positive for all x?",
+        answer: "-4"
+    },
+    {
+        problem: "Three circles, each of radius 1, are externally tangent, each to the other two as shown in the figure. A triangle with each side externally tangent to exactly one circle surrounds the three circles, as shown in the figure. The area of the triangle can be expressed as a√b + c where the prime factorization of b contains no squares. What is a + b + c?",
+        answer: "22"
+    },
+    {
+        problem: "How many distinct ordered pairs of integers (m, n) are there for which (a) m and n are from the set {−5,−4,...,4,5}, (b) |m−n|≤2,(c) m can equal n.",
+        answer: "49"
+    },
+    {
+        problem: "The coefficients of x2 − 22x + 111 = 0 are all written in base 4. Written in base 4 what is the largest real solution to the equation?",
+        answer: "13"
+    },
+    {
+        problem: "Let the set S contain all complex numbers such that z2 = z where z is the complex conjugate of z, i.e. if z = a+bi, then z = a−bi. How many elements does S contain?",
+        answer: "4"
+    },
+    {
+        problem: "Points A and B are situated on a solid cube of side 8 as shown in the figure. An ant starting at A wishes to get to point B as quickly as possible. The length of the shortest path from A to B on the surface of the cube can be written in simplest form as √k. What is k?",
+        answer: "194"
+    },
+    {
+        problem: "Let f(x) = mx + k where both m and k are positive integers. If f and f−1 intersect at a point where x = −5, what is the largest possible value of k such that m is less than 100?",
+        answer: "490"
+    },
+    {
+        problem: "Which of the following functions is strictly less than the function f(x) = √1 9 + (x-1)2 for all x?",
+        answer: "(A) fA(x) = |x − 1|"
+    },
+    {
+        problem: "Consider a right pyramid with square base of length s and height h. The ratio of the height to the base which makes the total area of the 4 triangular faces equal to 4 times the area of the base can be written in simplest terms as √a b where the prime factorization of a contains no squares. What is a + b?",
+        answer: "17"
+    },
+    {
+        problem: "A right pyramid has a regular √hexagonal base with side length 2. The height of the pyramid is h = 22. What is the total surface area of the 6 triangular faces? (The total surface area of the triangular faces is also called the lateral surface area.)",
+        answer: "30"
+    },
+    {
+        problem: "At Euclid High School, 30% of the students take geometry and the reminder take algebra. Of all the geometry students, 80% are boys. At Euclid High School, the number of girls is equal to the number of boys. What percentage of the boys take algebra?",
+        answer: "52"
+    },
+    {
+        problem: "From 3:15 PM to 5:00 PM, Tim was able to paint 91 boards. What is Tim’s average painting rate in boards per hour?",
+        answer: "52"
+    },
+    {
+        problem: "The fifth term of an arithmetic sequence is 16 and the ninth term is 32. What is the third term?",
+        answer: "8"
+    },
+    {
+        problem: "Equilateral △ABC has side AB in common with square ABDE and △ABC lies outside the square. What is the measure in degrees of ∠DEC?",
+        answer: "75"
+    },
+    {
+        problem: "The surface area of a given cube is K. If the cube is broken into 1000 congruent cubes, the sum of the surface areas of all those little cubes is M. Find M K.",
+        answer: "10"
+    },
+    {
+        problem: "For positive integers a and b, if ab = 1296, determine the minimum possible sum of a and b.",
+        answer: "72"
+    },
+    {
+        problem: "What is the least positive integer value of n such that |3x − 2| < n has 10 integer solutions?",
+        answer: "15"
+    },
+    {
+        problem: "If xy = 2, then what is x5y − 5?",
+        answer: "27"
+    },
+    {
+        problem: "A, B, C, and D are digits which are all less than 9 and are not necessarily distinct. What is the sum of all the elements of all ordered 4-tuples (A, B, C, D) such that √.AB = 0.CD where 0.AB represents the repeating decimal 0.ABABAB . . . and similarly for 0.CD.",
+        answer: "28"
+    },
+    {
+        problem: "If f(x) = 1 − 2x2, determine f(f(. . . f(1/√2))) where f appears 2019 times.",
+        answer: "-1"
+    },
+    {
+        problem: "Let the inner radius of a toilet paper roll be r and let the outer radius be R. If the volume of paper of the roll is equal to the lateral surface area (cylindrical sides only, not top and bottom) and R r = 2019, the length of the inner radius can be written in simplest form as a b. What is a + b?",
+        answer: "1010"
+    },
+    {
+        problem: "Circles P and Q are externally tangent at T, the radius of P is 12 and the radius of Q is 2. PTQ extended intersects Q at B. A lies on circle P such that AP ⊥ PB. R lies on AB such that RT ⊥ PB, and S is the intersection of circle Q and AB. The length of RS can be written in simplest form as m n. What is m+n?",
+        answer: "14"
+    },
+    {
+        problem: "What is the the rightmost digit of 20192019?",
+        answer: "9"
+    },
+    {
+        problem: "If the 6th-degree polynomial p(x) = (x + 1)(x − 1)(x + 3)(x − 3)(x + 5)(x − 5) is fully expanded, what is the sum of the coefficients?",
+        answer: "0"
+    },
+    {
+        problem: "If x3 + y3 = 84 and y2 + xy = 7, then what is x2 y − x + y?",
+        answer: "12"
+    },
+    {
+        problem: "A sequence fn has f1 = 0, f2 = 2019 and fn = fn−1 − fn−2 for n ≥ 3. What is f2019?",
+        answer: "2019"
+    },
+    {
+        problem: "Consider the following system of equations in x and y: √y−x2 = y−1 √x−y2 = x−1. What is the sum x + y over all ordered pair solutions (over the real numbers) of this system?",
+        answer: "2"
+    },
+    {
+        problem: "You plan to drive 500 miles at 65 miles per hour, stopping twice for 15 minutes each time to buy gas. You want to know the number of hours t the journey is going to take. Which of the following equations would you use to determine that number?",
+        answer: "(B) 65 · (t − 1/2) = 500"
+    },
+    {
+        problem: "Suppose a is negative and b and x are positive in the following expression a x + b What is the effect of increasing x on the value of the expression?",
+        answer: "(A) Increases the value of the expression."
+    },
+    {
+        problem: "Given isosceles △ABC with sides AB = BC = 25 and AC = 30, what is the side length of the largest square DEFG which can be inscribed in △ABC with G on AB, F on BC and D and E on AC?",
+        answer: "12"
+    },
+    {
+        problem: "Find the positive solution of the equation x2 + x − (2+4+6+···+2016) = 0.",
+        answer: "1008"
+    },
+    {
+        problem: "A semi-circle in inscribed in an equilateral triangle with side length 1. The diameter of the semi-circle lies on one side of the triangle. What is the radius of the semi-circle?",
+        answer: "(A) √3 4"
+    },
+    {
+        problem: "The sum 1 √1+√2 + 1 √2+√3 + ··· + 1 √9+√10 can be simplified to the form a+b√c where a, b and c are integers, and c has no factors which are the square of a prime number. What is the value of a+b+c?",
+        answer: "1"
+    },
+    {
+        problem: "One morning, Ann left home and cycled north at a steady speed. An hour later, Ann’s mother realized Ann had left without her lunch, so Mother set out at a steady speed of 10 miles per hour and cycled north after Ann, gave her the lunch and immediately turned around and again cycling at 10 miles per hour returned home exactly 3 hours after she started. What was Ann’s speed in miles per hour?",
+        answer: "6"
+    },
+    {
+        problem: "The increasing sequence 2, 3, 5, 6, 7, 8, 10, 11, 12, . . . consists of the positive integers in order with the perfect squares removed. What is the 200th number in this sequence?",
+        answer: "214"
+    },
+    {
+        problem: "The figure shows a irregular pentagon with vertices A, B, C, D, and E. The measures of the angles at B and E are each 90◦, as indicated in the interior of the pentagon. The measure of the angle at C is 105◦, as indicated in the interior of the pentagon, and 2∠A + ∠D = 360◦. What is the angle measure of A in degrees?",
+        answer: "105"
+    },
+    {
+        problem: "What is the sum of all of the coordinates of all points that have integer coordinates and that are solutions to x2 + y2 − 6x + 4y = −12 ?",
+        answer: "4"
+    },
+    {
+        problem: "On square ABCD, point E divides AB in the ratio AE : EB = 2 : 1 and point F divides CD in the ratio CF : FD = 1 : 1. Segments AF and DE intersect at G. The ratio of the area of △DFG to the area of square ABCD is a/b where a and b have no common factors. What is a+b?",
+        answer: "31"
+    },
+    {
+        problem: "If log3x 3 − 5 4 log9x 3 = 0, what is the value of x?",
+        answer: "27"
+    },
+    {
+        problem: "Suppose that G1 = 1, G2 = 1, and Gn = Gn−1 + iGn−2, where i = √-1 is the imaginary constant. What is the coefficient b of the imaginary part of G10 = a+bi?",
+        answer: "-12"
+    },
+    {
+        problem: "A set of 11 boxes is numbered consecutively from 1 to 11 and a set of 11 cards is numbered consecutively from 1 to 11. In how many ways can all the cards be placed in the boxes, one card per box, such that the sum of the number of any given box and the number of the card in that box is divisible by 3?",
+        answer: "3456"
+    },
+    {
+        problem: "What is the coefficient of the x5 term in the expansion of (x1/2 +x2/3)9?",
+        answer: "84"
+    },
+    {
+        problem: "Determine the sum of the squares of the x-coordinates of the intersection points of y = 2018 x and y = 2018 − x2.",
+        answer: "4036"
+    },
+    {
+        problem: "A semi-circle ωAC circumscribes 3 − 4 − 5 triangle ABC. A semi-circle ωBC with diameter BC and another semi-circle ωAB with diameter AB are constructed outside the triangle. What is the shaded area inside ωBC and ωAB but outside ωAC?",
+        answer: "(D) 6"
+    },
+    {
+        problem: "If f(a + b) = f(a)f(b) for positive integers a and b and f(1) = √-1 what the value of f(2015)?",
+        answer: "(B) -√-1"
+    },
+    {
+        problem: "In △ABC, AB = AC, M and N lie on BC such that AM and AN trisect ∠BAC with M lying closer to B. If BM = 3·MN and AM = 8, what is the length of AB?",
+        answer: "24"
+    },
+    {
+        problem: "If f(x) = mx+b for m < 0 and f(x) = 4f−1(x)+3, what is the sum m+b?",
+        answer: "-5"
+    },
+    {
+        problem: "Let S be the set of all pairs (x, y) of positive integers such that 9x2 − 4y2 =540. Find the sum of all coordinates in the set S.",
+        answer: "48"
+    },
+    {
+        problem: "Two angles of a triangle are x+28 and 4x+5. If all the angles are integers, what is the measure of the smallest possible angle of this triangle?",
+        answer: "1"
+    },
+    {
+        problem: "A urn has an equal number of white marbles and black marbles in it. You take two marbles randomly from the urn and see that they are the same color. Now you take two more marbles randomly from the urn and the probability that the second pair of marbles match in color (not necessarily the same color as the first pair) is 7 15. What is the smallest possible number of marbles in the urn originally?",
+        answer: "8"
+    },
+    {
+        problem: "A regular hexagon is centered at the origin in the complex plane. If one vertex is at 2 + 4√2i, the area of the hexagon can be written as a√b where the prime factorization of b has no square. Find a + b.",
+        answer: "57"
+    },
 ]
