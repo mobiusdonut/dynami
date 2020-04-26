@@ -52,13 +52,11 @@ $(document).ready(() => {
     filter = input[0].value.toUpperCase();
     li = $('li');
 
-    var count = 0;
-
     if (filter.length > 0) {
         for (i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("button")[0];
             txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1 && count <= 10) {
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
                 li[i].style.display = "block";
                 count += 1;
             } else {
@@ -68,12 +66,6 @@ $(document).ready(() => {
     }
     else {
         li.hide();
-    }
-    if (count >= 10 && filter.length > 0) {
-            document.getElementById("overflow").style.display = "block";
-    }
-    else {
-        document.getElementById("overflow").style.display = "none";
     }
   }
 

@@ -122,10 +122,6 @@ button.small:hover {
     display: block;
 }
 
-#overflow {
-    display: none;
-}
-
 #showans {
     margin: 0 calc((500px - 139.2px)/2);
     margin-bottom: 12px;
