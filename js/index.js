@@ -48,14 +48,12 @@ $(document).ready(() => {
   });
 
   const search = () => {
-    var input, filter, li, a, i, txtValue;
-    input = $('#search');
-    filter = input[0].value.toLowerCase();
+    var li, a, txtValue;
     li = $('li');
-    var keywords = filter.split(' ').filter(function(word) { return !(word in stopword) && word.length > 3})
+    var keywords = $('#search')[0].value.toLowerCase().split(' ').filter(function(word) { return !(word in stopword) && word.length > 3})
 
-    if (filter.length > 0) {
-        for (i = 0; i < li.length; i++) {
+    if (keywords.length > 0) {
+        for (let i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("button")[0];
             txtValue = a.textContent || a.innerText;
             txtSplit = txtValue.toLowerCase().split(" ")
