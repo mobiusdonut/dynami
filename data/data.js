@@ -5,7 +5,7 @@ const data =
         answer: "(E) 0.32"
     },
     {
-        problem: "A circle with center at (0, 2) is tangent to the graph of y = x2 at two points. If the radius of the circle is written as √ab, what is a + b ?",
+        problem: "A circle with center at (0, 2) is tangent to the graph of y = x2 at two points. If the radius of the circle is written as √ab, what is a + b?",
         answer: "9"
     },
     {
@@ -13,7 +13,7 @@ const data =
         answer: "7"
     },
     {
-        problem: "Let f(x) = log4x + 3x − 7. What is the number of integers that cannot be solutions to f(x) < 1 ?",
+        problem: "Let f(x) = log4x + 3x − 7. What is the number of integers that cannot be solutions to f(x) < 1?",
         answer: "14"
     },
     {
@@ -25,7 +25,7 @@ const data =
         answer: "9"
     },
     {
-        problem: "Rectangle ABCD has width 6 and height 8. In the interior of the rectangle, two congruent circles O1 and O2 are externally tangent and O1 is tangent to AB and O2 is tangent to CD. Circle O3 is externally tangent to O1 and O2 and to AD and likewise Circle O4 is externally tangent to O1 and O2 and to BC. See the accompanying figure. The radius of circle O4 is a rational number a/b where a and b have noc ommon factors. What is a + b ?",
+        problem: "Rectangle ABCD has width 6 and height 8. In the interior of the rectangle, two congruent circles O1 and O2 are externally tangent and O1 is tangent to AB and O2 is tangent to CD. Circle O3 is externally tangent to O1 and O2 and to AD and likewise Circle O4 is externally tangent to O1 and O2 and to BC. See the accompanying figure. The radius of circle O4 is a rational number a/b where a and b have noc ommon factors. What is a + b?",
         answer: "19"
     },
     {
@@ -53,7 +53,7 @@ const data =
         answer: "11"
     },
     {
-        problem: "ABCD is a rhombus. Points B and D lie on a parabola whose equation is f(x) = −√45x2 + k, C lies on the origin, E lies on the y-axis and is the trisection point of AB that is closer to A. The product of the coordinates of B can be written as mn where m and n are relatively prime positive integers. What is m + n ?",
+        problem: "ABCD is a rhombus. Points B and D lie on a parabola whose equation is f(x) = −√45x2 + k, C lies on the origin, E lies on the y-axis and is the trisection point of AB that is closer to A. The product of the coordinates of B can be written as mn where m and n are relatively prime positive integers. What is m + n?",
         answer: "7"
     },
     {
@@ -73,7 +73,7 @@ const data =
         answer: "4"
     },
     {
-        problem: "A number abc has three different non-zero digits. The sum of all 6 three-digit numbers formed with the same three digits in any order is 3108. What is the sum of the digits a + b + c ?",
+        problem: "A number abc has three different non-zero digits. The sum of all 6 three-digit numbers formed with the same three digits in any order is 3108. What is the sum of the digits a + b + c?",
         answer: "14"
     },
     {
@@ -105,7 +105,7 @@ const data =
         answer: "1/5"
     },
     {
-        problem: "In 4ABC, AB = cos A and AC = 1. What is the maximum possible area of 4ABC ?",
+        problem: "In 4ABC, AB = cos A and AC = 1. What is the maximum possible area of 4ABC?",
         answer: "1/4"
     },
     {
@@ -113,7 +113,7 @@ const data =
         answer: "123"
     },
     {
-        problem: "Let x, y, and z be integers with 2 < x < y < z and let z be even. If x2 + y2 = z2 + 4, what is the least possible sum of x + y + z ?",
+        problem: "Let x, y, and z be integers with 2 < x < y < z and let z be even. If x2 + y2 = z2 + 4, what is the least possible sum of x + y + z?",
         answer: "38"
     },
     {
@@ -154,7 +154,7 @@ const data =
     },
     {
         problem: "How many positive 3-digit numbers ABC are such that the product of the 2-digit numbers AB and BC equals ABC?",
-        answer: "20"
+        answer: "9"
     },
     {
         problem: "Astronauts are setting up a deep-space communication antenna on an asteroid. See the accompanying schematic figure. The asteroid is perfectly spherical with radius 100 kilometers. The astronauts erect 2 poles 500 meters tall perpendicular to the surface of the asteroid, located 10 km apart, measured along the surface of the asteroid. Between the poles is an antenna wire that is a circular arc concentric with the spherical asteroid. How much longer in meters is the antenna wire than the ground distance between the poles?",
@@ -245,7 +245,7 @@ const data =
         answer: "12"
     },
     {
-        problem: "For any positive integer j, what is the greatest common divisor of 2j+1 and 2j + 5 ?",
+        problem: "For any positive integer j, what is the greatest common divisor of 2j+1 and 2j + 5?",
         answer: "(A) 1"
     },
     {
@@ -285,7 +285,7 @@ const data =
         answer: "101"
     },
     {
-        problem: "Given the system x + y1 = 4 x1 + y = 8 what is the ratio of y to x ?",
+        problem: "Given the system x + y1 = 4 x1 + y = 8 what is the ratio of y to x?",
         answer: "2"
     },
     {
@@ -345,7 +345,7 @@ const data =
         answer: "(C) 1"
     },
     {
-        problem: "Let ⌊x⌋ represent the greatest integer less than or equal to x. Thus, ⌊3.7⌋ = 3. For positive x and y, what is the sum of the areas of the regions in the coordinate plane of the solution set to ⌊x⌋ · ⌊y⌋ = 8 ?",
+        problem: "Let ⌊x⌋ represent the greatest integer less than or equal to x. Thus, ⌊3.7⌋ = 3. For positive x and y, what is the sum of the areas of the regions in the coordinate plane of the solution set to ⌊x⌋ · ⌊y⌋ = 8?",
         answer: "4"
     },
     {
@@ -553,7 +553,7 @@ const data =
         answer: "105"
     },
     {
-        problem: "What is the sum of all of the coordinates of all points that have integer coordinates and that are solutions to x2 + y2 − 6x + 4y = −12 ?",
+        problem: "What is the sum of all of the coordinates of all points that have integer coordinates and that are solutions to x2 + y2 − 6x + 4y = −12?",
         answer: "4"
     },
     {
@@ -611,5 +611,149 @@ const data =
     {
         problem: "A regular hexagon is centered at the origin in the complex plane. If one vertex is at 2 + 4√2i, the area of the hexagon can be written as a√b where the prime factorization of b has no square. Find a + b.",
         answer: "57"
+    },
+    {
+        problem: "If log2 x + logx 4 = 3 what is the sum of all values of x?",
+        answer: "6"
+    },
+    {
+        problem: "What is the smallest positive integer that has half as many factors as 224?",
+        answer: "12"
+    },
+    {
+        problem: "Each straight line segment in the accompanying figure is 1 inch long and the entire figure is a simple closed loop. The whole figure has a total perimeter of 186 inches. What is the total area of the figure in square inches?",
+        answer: "92"
+    },
+    {
+        problem: "Solve for x: 9 −1−5x 9 −5−3x = 9−4x−2",
+        answer: "-3"
+    },
+    {
+        problem: "For 0 < θ < 25◦, if cos θ = cos(14θ), what is the value of θ?",
+        answer: "24"
+    },
+    {
+        problem: "When a volcano erupts, fine particles of ash are ejected miles into the sky. As they fall, they coalesce into spheres of pumice. The volume the sphere attains when it reaches the ground is directly proportional to the height the ash reaches. If from a height of 8 miles, the volume attained is 3π cubic centimeters, then if the sphere formed from an attained height of 12 miles has a radius, in simplest terms, of a b , what is a + b?",
+        answer: "5"
+    },
+    {
+        problem: "From the set {1, 2, 3, 4, 5}, how many subsets do not have a pair of elements which differ by 1? (For example, the subset {1, 3, 5} has no pairs which differ by 1, but the subset {1, 2, 5} does have a pair which differs by 1.)",
+        answer: "13"
+    },
+    {
+        problem: "Given that u is 75% of the size of w, w is 50% larger than z and x is 25% smaller than z, by what percent is u larger than x?",
+        answer: "50"
+    },
+    {
+        problem: "If the graphs of y = x2 −ax+b and y = x2 −bx+a intersect in exactly one point, what is the x-coordinate of that point?",
+        answer: "-1"
+    },
+    {
+        problem: "Let a, b, and c be relatively prime integers with a > 0. If the roots of ax2 + bx + c = 0 are −2 3 and 1 5, what is the value of a + b + c?",
+        answer: "20"
+    },
+    {
+        problem: "Determine the sum: 1 − 2 − 3 − 4 + 5 − 6 − 7 − 8 + 9 − 10 − 11 − 12 + 13 − · · · − 2020.",
+        answer: "-1022120"
+    },
+    {
+        problem: "The vertices of a square are (7, 12), (3, 6), (9, 2) and (13, 8). The line through (2, −3) divides the square into two parts of equal area. The line’s equation can be written as Ax + By + C = 0 where A, B and C are relatively prime integers with A > 0. What is A + B + C?",
+        answer: "-17"
+    },
+    {
+        problem: "One urn contain 3 white balls and 5 black balls. A second urn contains 5 white balls and 4 black balls. From each urn two balls are selected at random without replacement. The probability of selecting 4 white balls can be written in simplest form as a b. What is a + b?",
+        answer: "173"
+    },
+    {
+        problem: "The isosceles 4ABC has a base of AB = 1 and side lengths of AC = BC = 2. Another isosceles 4DEF is inscribed in 4ABC with D on AC, E on BC, and F on AB such that AD = BE = 1. The area of 4DEF can be written in simplest form as √a b . What is a + b?",
+        answer: "31"
+    },
+    {
+        problem: "Don has a an unusually shaped cabin in the woods, with four rectangular rooms, according the plan shown in the figure. All dimensions of the rooms are an integer number of meters. Rooms ABCD and CEFD share a common side CD and rooms GHIJ and IJKL share common side IJ. Some of the outside dimensions are shown in the figure, AB = 7 meters, AG = 4 meters, FK = 3 meters and GH = 6 meters. The area of three of the rooms in square meters is also shown: the area of ABCD is 35, the area of DCEF is 42 and the area of GHIJ is 36. What is the area of the shaded rectangle, IJKL, in square meters?",
+        answer: "24"
+    },
+    {
+        problem: "How many 6-digit numbers contain the digit-trio 123 at least once?",
+        answer: "3699"
+    },
+    {
+        problem: "Shown is a graph of x2 64 + y2 4 = 1. If AB = BC = CD = DE, what is 4 times the length of AB?",
+        answer: "17"
+    },
+    {
+        problem: "A radius of a circle is drawn. A second radius is drawn 17◦ in a clockwise direction from the first. A third radius is then drawn 17◦ in a clockwise direction from the second. This process continues until 30 radii have been drawn. What is the smallest possible angle between two of the radii?",
+        answer: "3"
+    },
+    {
+        problem: "Let N = 0.b0b0 and M = 0.0b0b where b is an integer from 1 to 9 inclusive and 0.b0b0 indicates the repeating decimal 0.b0b0b0 . . .. If N − M N + M = 9 11, compute the sum of all possible values of b.",
+        answer: "45"
+    },
+    {
+        problem: "9 cards that are face down have been put at random into a pile of 5 cards and a pile of 4. It is known that there are 6 red cards and 3 black cards. The probability that at least one pile contains only red cards is m n where m and n are relatively prime. What is m + n?",
+        answer: "7"
+    },
+    {
+        problem: "How many solutions in integers x and y does the equation x3 + 2y2 = xy2 + 8 have?",
+        answer: "(E) More than four"
+    },
+    {
+        problem: "Equilateral 4DEF is inscribed in equilateral 4ABC with DF ⊥ AB and AD = 2. What is the ratio of the area of 4ABC to the area of 4DEF?",
+        answer: "3"
+    },
+    {
+        problem: "How many real roots (counting multiplicities) does the polynomial x4 + 2x3 + 2x2 + 2x + 1 have?",
+        answer: "2"
+    },
+    {
+        problem: "Consider the accompanying figure. Points D, A, B lie on a straight line. Circles with centers at A, B, and C have radius 1 and are mutually tangent. Circles with centers A, D, and E have radius 1 and are also mutually tangent. Rectangle HIJK is circumscribed about the 5 circles so that HI is tangent to circles D and C, IJ is tangent to circles C and B, JK is tangent to circles B and E, and KH is tangent to circles E and D. The area of HIJK can be written in simplest form as a + b√c where the prime factorization of c contains no squares. Whatis a + b + c?",
+        answer: "19"
+    },
+    {
+        problem: "The radius of the largest circle that can be inscribed in a 120◦sector of a larger circle with radius 1 can be written in simplest form a√b−c, where simplest form means the prime factorization of b has no squares. What is a + b + c?",
+        answer: "8"
+    },
+    {
+        problem: "Rhombus ABCD with side length 3 is separated from congruent rhombus EF GH by parallelogram BEHC. Segment AG intersects BC at L. The length BL = 1. What is BE?",
+        answer: "3"
+    },
+    {
+        problem: "Let ABCDEFGH be a regular octagon of side length 2. Let X be the intersection of BH with AG and Y be the intersection of BH with AC. The square of the length of segment XY, that is, XY2 can be written in simplest form as a − b√c. What is a + b + c?",
+        answer: "14"
+    },
+    {
+        problem: "Let n be an integer with n > 2. What is the remainder when the product n(n + 2)(n + 3) is divided by n − 2?",
+        answer: "40"
+    },
+    {
+        problem: "In 4ABC, ∠ABC = 90◦, AB = 6 BC = 16, BE ⊥ AD and D is the midpoint of BC. The length of BE can be written in simplest form as m n. What is m + n?",
+        answer: "281"
+    },
+    {
+        problem: "A square 2017 by 2017 is divided into unit squares. Starting from the lower left corner, Al walks to the upper right corner by stepping on the squares that lie on the diagonal. Starting from the same lower left corner, Bob steps 3 squares to the right, then 4 squares up, then 2 squares up, followed by 3 squares to the right. He continues that procedure until he arrives at the upper right corner. If Al steps on m squares and Bob steps on n squares, what is the ratio of n to m? Note: the lower left hand corner that they start on is not counted as a step.",
+        answer: "2"
+    },
+    {
+        problem: "Let the perimeter of a rectangle be 4k and x be the length of a short side of the rectangle. For how many integer values of x is the area numerically less than the perimeter for all values of k?",
+        answer: "2"
+    },
+    {
+        problem: "Let bac be the greatest integer less than or equal to a. Let dae be the least integer greater than or equal to a. The area enclosed by the system below equals m n in simplest form. What is m + n? x ≥ 0, y ≥ 0 bxc + dye ≤ 5 x + y ≥ 5",
+        answer: "7"
+    },
+    {
+        problem: "A square MNOP is inscribed in a regular octagon ABCDEFGH of side length 1 with the vertices of the square at the midpoints of AB, CD, EF and GH. The side length of the square can be expressed as a +√bc where the prime factorization of b contains no squares. What isa + b + c?",
+        answer: "5"
+    },
+    {
+        problem: "Shown in the figure is an array of numbers in which, except for the elements at the two ends of a row, an element in a row is the sum oft he two elements in the preceding row that are just above it. What is the sum of all the elements in the first 10 rows?",
+        answer: "3069"
+    },
+    {
+        problem: "What is the largest value of t such that 3x2 − 2x + t = 0 has real solutions?",
+        answer: "1/3"
+    },
+    {
+        problem: "In 4ABC, BC = 9, D is chosen on BC such that BD = 6, and E is chosen on AC such that DE k AB. If the area of 4ADE = 8, determine the area of 4ABC.",
+        answer: "36"
     },
 ]
