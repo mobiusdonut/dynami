@@ -6,6 +6,8 @@ body {
     font-family: 'Roboto Mono', monospace !important;
     height: 100%;
     width: 100%;
+    background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+	background-size: 22px 22px;
 }
 
 main {
