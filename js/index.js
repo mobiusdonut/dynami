@@ -1,3 +1,5 @@
+const stopword = ["about","after","all","also","am","an","and","another","any","are","as","at","be","because","been","before","being","between","both","but","by","came","can","come","could","did","do","each","for","from","get","got","has","had","he","have","her","here","him","himself","his","how","if","in","into","is","it","like","make","many","me","might","more","most","much","must","my","never","now","of","on","only","or","other","our","out","over","said","same","see","should","since","some","still","such","take","than","that","the","their","them","then","there","these","they","this","those","through","to","too","under","up","very","was","way","we","well","were","what","where","which","while","who","with","would","you","your","a","i"]
+
 $(document).ready(() => {
     for (var i = 0; i < data.length; i++) {
         var li = document.createElement("li");
@@ -37,7 +39,6 @@ $(document).ready(() => {
         li.appendChild(content);
         probs.appendChild(li);
     }
-    console.log($('#showansbutton:checked'))
     if ($('#showansbutton:checked').length > 0) {
         $(".contentp").hide() 
     }
@@ -49,16 +50,19 @@ $(document).ready(() => {
   const search = () => {
     var input, filter, li, a, i, txtValue;
     input = $('#search');
-    filter = input[0].value.toUpperCase();
+    filter = input[0].value.toLowerCase();
     li = $('li');
+    var keywords = filter.split(' ').filter(function(word) { return !(word in stopword) && word.length > 3})
 
     if (filter.length > 0) {
         for (i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("button")[0];
             txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            txtSplit = txtValue.toLowerCase().split(" ")
+            if ((keywords).every(function(word) {return txtValue.toLowerCase().indexOf(word) !== -1})) {
                 li[i].style.display = "block";
-            } else {
+            }
+            else {
                 li[i].style.display = "none";
             }
         }
