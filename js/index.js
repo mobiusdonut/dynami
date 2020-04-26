@@ -16,6 +16,9 @@ $(document).ready(() => {
         var att3 = document.createAttribute("width");
         att3.value = "100%";
         p.setAttributeNode(att3);
+        var att4 = document.createAttribute("class");
+        att4.value = "contentp";
+        p.setAttributeNode(att4);
 
         header.addEventListener("click", function() {
           this.classList.toggle("active");
@@ -34,15 +37,16 @@ $(document).ready(() => {
         li.appendChild(content);
         probs.appendChild(li);
       }
-  
+      if ($('#showansbutton:checked') !== null) {
+        $(".contentp").hide() 
+      }
   });
 
   const search = () => {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById('search');
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("probs");
-    li = ul.getElementsByTagName('li');
+    var input, filter, li, a, i, txtValue;
+    input = $('#search');
+    filter = input[0].value.toUpperCase();
+    li = $('li');
 
     var count = 0;
 
@@ -59,9 +63,7 @@ $(document).ready(() => {
         }
     }
     else {
-        for (i = 0; i < li.length; i++) {
-            li[i].style.display = "none";
-        }
+        li.hide();
     }
     if (count >= 10 && filter.length > 0) {
             document.getElementById("overflow").style.display = "block";
@@ -69,4 +71,8 @@ $(document).ready(() => {
     else {
         document.getElementById("overflow").style.display = "none";
     }
+  }
+
+  const showAnswers = () => {
+    $(".contentp").toggle() 
   }

@@ -173,7 +173,51 @@ var data =
         answer: "(B) 1:1"
     },
     {
-        problem: "How many pairs of prime numbers are there with a sum of 40",
+        problem: "How many pairs of prime numbers are there with a sum of 40?",
         answer: "3"
+    },
+    {
+        problem: "In a dice game played with two fair six-sided dice, a player first rolls both dice. The die with the higher count is set aside and the other die is rolled again. (If both dice show the same count, one is still set aside and the other rolled again.) The sum of the counts showing after the second roll is the score. The probability of getting 11 or better can be written as a b where a and b have no common factors. What is the sum a + b?",
+        answer: "1/12"
+    },
+    {
+        problem: "ABCD is a rectangle whose width is a and whose length is b with 2a < b and a and b integers. Points E and F are chosen on AB such that AE = FB = a. If the area of DEFC equals 18, determine the largest possible perimeter of ABCD.",
+        answer: "40"
+    },
+    {
+        problem: "Consider two concentric spheres. A plane intersects both spheres, the intersection being two concentric circles. If the area between the two circles is 36, what is the positive difference in the surface areas of the two spheres?",
+        answer: "144"
+    },
+    {
+        problem: "A hemisphere of radius 3 is concentric with a hemisphere of radius 9 and the flat surface of the small hemisphere Is glued to the flat surface of the larger hemisphere. See the accompanying figure. The surface area of the resulting solid can be written as air where a is an integer. What is a?",
+        answer: "252"
+    },
+    {
+        problem: "Alice is passing a truck on the highway. The truck is traveling at a constant speed of 55 miles per hour and the truck is 52.8 feet long. Alice is passing at 60 miles per hour. How many seconds does it take Alice to pass the truck? (A mile is 5280 feet.)",
+        answer: "7.2"
+    },
+    {
+        problem: "Determine the product of all values of x such that the sum of x2 − 2 and 4 x2 - 1 x is 0.",
+        answer: "-8"
+    },
+    {
+        problem: "If x is in radians, find the number of solutions in [0, 2π) to sin x cos x = 1−cos2x 2",
+        answer: "4"
+    },
+    {
+        problem: "Let f(x) = 9x2, A = (a,f(a)) for a > 0, and B = (a,0). If the reflection of B across the line connecting A with the origin lies on the y-axis, what is 36a?",
+        answer: "4"
+    },
+    {
+        problem: "How many positive 5-digit palindromes are there?",
+        answer: "900"
+    },
+    {
+        problem: "The winner of a triathlon race swam the first part of the race in 23 minutes, 31 seconds, then changed to the bike race in 47 seconds. The winner biked the second part of the race in 1 hour 17 minutes, and 22 seconds, then changed to the running race in 37 seconds. Finally, the winner completed the running race in 40 minutes, 9 seconds. What was the winners total time in hours, minutes and seconds?",
+        answer: "(B) 2 hours, 22 minutes, 26 seconds"
+    },
+    {
+        problem: "Some number of pirates are seated at a large circular table. They pass a bag containing 432 gold coins around the table, always in the same direction. Each pirate receives the bag, takes 3 coins and then passes the bag to the next pirate. The captain, who is included in the number of pirates, takes the first 3 coins and the last 3 coins. What is a possible number of pirates at the table?",
+        answer: "11"
     },
 ]

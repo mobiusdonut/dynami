@@ -3,6 +3,8 @@
 <head>
     <title>Dynami</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link async rel="stylesheet" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/movingbubbles.css"/>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -22,6 +24,13 @@
             <div class="main">
                 <img id="hero" src="img/dynami.png"></img>
                 <h1>Dynami</h1>
+                <div class="pretty p-icon p-round" id="showans">
+                    <input id="showansbutton" type="checkbox" onchange="showAnswers()"/>
+                    <div class="state">
+                        <i class="icon mdi mdi-check"></i>
+                        <label> Hide Answers</label>
+                    </div>
+                </div>
                 <div id="bigdiv">
                     <input type="text" id="search" onkeyup="search()" placeholder="Search for Aretelabs problems..">
                     <p id="overflow">First 10 results</p>
