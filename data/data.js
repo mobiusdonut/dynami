@@ -1,4 +1,4 @@
-var data = 
+const data = 
 [
     {
         problem: "Steve can fuel his compact car with either regular or premium gas. If Steve uses regular gas his car gets 27 miles per gallon, but if he uses the more expensive higher-octane premium gas his car gets 30 miles per gallon. Regular gas is currently $2.70 per gallon. Let the answers below represent the amount by which premium gas costs more than regular gas per gallon. Which of these is the smallest difference in price for premium that still leaves regular gas a better value?",
@@ -178,7 +178,7 @@ var data =
     },
     {
         problem: "In a dice game played with two fair six-sided dice, a player first rolls both dice. The die with the higher count is set aside and the other die is rolled again. (If both dice show the same count, one is still set aside and the other rolled again.) The sum of the counts showing after the second roll is the score. The probability of getting 11 or better can be written as a b where a and b have no common factors. What is the sum a + b?",
-        answer: "1/12"
+        answer: "13"
     },
     {
         problem: "ABCD is a rectangle whose width is a and whose length is b with 2a < b and a and b integers. Points E and F are chosen on AB such that AE = FB = a. If the area of DEFC equals 18, determine the largest possible perimeter of ABCD.",
@@ -219,5 +219,89 @@ var data =
     {
         problem: "Some number of pirates are seated at a large circular table. They pass a bag containing 432 gold coins around the table, always in the same direction. Each pirate receives the bag, takes 3 coins and then passes the bag to the next pirate. The captain, who is included in the number of pirates, takes the first 3 coins and the last 3 coins. What is a possible number of pirates at the table?",
         answer: "11"
+    },
+    {
+        problem: "Let r1 = 1 3 and let rn = 2 − 1 rn-1 for n ≥ 2. The value of r2017 in simplest form can be represented by m n. What is the sum m + n?",
+        answer: "8060"
+    },
+    {
+        problem: "A certain number of segments of length 1 are arranged as shown below. If the segments are separated and rearranged into 1 by 1 squares, what is the maximum possible sum of the areas of the 1 by 1 squares?",
+        answer: "10"
+    },
+    {
+        problem: "In △ABC, m∠A = 30◦, AB ∈ {1,2,3}, and AC ∈ {1,2,3,4}. The average area of all the triangles that can be formed using those sides can be written, in simplest form, as m/n. Note: Consider, for example, the triangle formed with AB = 1 and AC = 2 to be distinct from the triangle formed by AB = 2 and AC = 1 since the named sides have different lengths. What m + n?",
+        answer: "9"
+    },
+    {
+        problem: "The numbers 1, 1, 1, 2, 2, 2, 3, 3, and 3 are to be placed, one per cell, in the 9 cells of the 3 by 3 square shown below. Let E be the event that in each row and in each column there is exactly one 1, one 2, and one 3. If the 9 numbers are placed into the square at random, what is the probability of E occurring?",
+        answer: "1/140"
+    },
+    {
+        problem: "In △ABC, D lies on BC such that BD = 3 2CD. If AB = 2AC and AD = 3 2 CD, what is the value of cos ∠ADC?",
+        answer: "17/33"
+    },
+    {
+        problem: "A sphere of radius 2 sits at the bottom of a cylinder, and a second sphere of radius 4 rests on the first sphere inside the cylinder. The height of the top of the second sphere above the base of the cylinder is 9, as in the figure. The diameter of the cylinder can be written in simplest terms as a + b√c where the prime factorization of c contains no squares. What is a+b+c?",
+        answer: "12"
+    },
+    {
+        problem: "For any positive integer j, what is the greatest common divisor of 2j+1 and 2j + 5 ?",
+        answer: "(A) 1"
+    },
+    {
+        problem: "If each of the variables x, y, and z can take on the values 0 or 1 only, how many solutions does the equation have? x2 + y2 + z2 + 2xyz = 1",
+        answer: "3"
+    },
+    {
+        problem: "In equilateral △ABC with side length 1, the semi-circle RST is in- scribed with the endpoints R and S of the diameter RS on sides AC and BC respectively, RS parallel to AB and point T of the semi-circle tangent to side AB, as shown in the figure. What is the radius of the semi-circle?",
+        answer: "(A) 3−√3 4"
+    },
+    {
+        problem: "If a, b and c are positive integers such that (a, b, c) is the only ordered triple with 6a + 9b + 20c = 61, then what is a + b + c?",
+        answer: "5"
+    },
+    {
+        problem: "A fair coin is flipped and if it comes up heads, a red marble is placed in an empty urn, and if the coin comes up tails, a green marble is put in the empty urn. A second marble, green, is added to the urn already containing one marble. A marble is drawn at random from the urn, and it is green. What is the probability that the remaining marble is also green?",
+        answer: "(D) 2/3"
+    },
+    {
+        problem: "What is the maximum value taken on by the function f(x) = (1 4) x2−6x+3?",
+        answer: "4096"
+    },
+    {
+        problem: "Let P(x) be a polynomial of degree 3 such that P(k) = k2 k+1 for k = 1, 2, 3, 4. The value of P (5) can be written as a rational number abwhere a and b have no common factors. Find a + b.",
+        answer: "77"
+    },
+    {
+        problem: "Find the sum of all two-digit positive integers that are 10 times the sum of their digits.",
+        answer: "450"
+    },
+    {
+        problem: "A cube whose edge-length is 64 cm weighs 512 pounds. If there are 32 congruent smaller cubes with the same density as the large cube, the sum of whose weights equals the weight of the large cube, then the edge-length of any one of those cubes can be written in simplest form as a√3 b. (Simplest form means there are no factors of b which are perfect cubes.) What is a + b?",
+        answer: "18"
+    },
+    {
+        problem: "Let A and B be distinct digits with A = ̸= 0. A bag contains all four-digit numbers of the form ABAB. One is chosen at random. The probability mthat it is divisible by 4 can be written in simplest form as n . What is the value of m + n?",
+        answer: "101"
+    },
+    {
+        problem: "Given the system x + y1 = 4 x1 + y = 8 what is the ratio of y to x ?",
+        answer: "2"
+    },
+    {
+        problem: "If f(x) = ax2 + bx + candf(−3) = 10 and f(3)=−8, then what is b?",
+        answer: "-3"
+    },
+    {
+        problem: "A line passes through (5, 2) and (6, 8). A parallel line passes through the point (5, 5). The coordinate where the line meets the x-axis can be written in simplest form as a/b. What is a + b?",
+        answer: "31"
+    },
+    {
+        problem: "Suppose you roll three fair six-sided red dice, and one fair six-sided green die. The probability that the number on the green die matches the least number showing among the three red dice is a/b in lowest terms. What is a + b?",
+        answer: "7"
+    },
+    {
+        problem: "What is the smallest positive number N such that when N is divided by each of 2/3, 4/7, and 5/4, the result is an integer?",
+        answer: "20"
     },
 ]

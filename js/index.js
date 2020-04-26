@@ -36,10 +36,10 @@ $(document).ready(() => {
         content.appendChild(p);
         li.appendChild(content);
         probs.appendChild(li);
-      }
-      if ($('#showansbutton:checked') !== null) {
-        $(".contentp").hide() 
-      }
+    }
+    if ($('#showansbutton:checked') !== null) {
+    $(".contentp").hide() 
+    }
   });
 
   const search = () => {
