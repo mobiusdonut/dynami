@@ -37,8 +37,12 @@ $(document).ready(() => {
         li.appendChild(content);
         probs.appendChild(li);
     }
-    if ($('#showansbutton:checked') !== null) {
-    $(".contentp").hide() 
+    console.log($('#showansbutton:checked'))
+    if ($('#showansbutton:checked').length > 0) {
+        $(".contentp").hide() 
+    }
+    else {
+        $(".contentp").show() 
     }
   });
 
