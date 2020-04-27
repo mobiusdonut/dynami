@@ -48,16 +48,22 @@ $(document).ready(() => {
   });
 
   const search = () => {
-    var li, a, txtValue;
+    var li, a, filter, txtValue, exact, keywords;
     li = $('li');
-    var keywords = $('#search')[0].value.toLowerCase().split(' ').filter(function(word) { return !(word in stopword) && word.length > 3})
-
+    filter = $('#search')[0].value.toLowerCase();
+    if (filter.match(/"([^"]+)"/g)) {
+        exact = filter.match(/"([^"]+)"/g).map(function(word) { return word.substring(1, word.length - 1)});
+    }
+    else {
+        exact = []
+    } 
+    keywords = filter.replace(/"([^"]+)"/g, '').replace(/"/g, '').split(' ').filter(function(word) { return !(word in stopword) && word.length > 3})
     if (keywords.length > 0) {
         for (let i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("button")[0];
             txtValue = a.textContent || a.innerText;
             txtSplit = txtValue.toLowerCase().split(" ")
-            if ((keywords).every(function(word) {return txtValue.toLowerCase().indexOf(word) !== -1})) {
+            if ((keywords).every(function(word) {return txtValue.toLowerCase().indexOf(word) !== -1}) && (exact).every(function(word) {return txtValue.toLowerCase().indexOf(word) !== -1})) {
                 li[i].style.display = "block";
             }
             else {
