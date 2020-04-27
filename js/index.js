@@ -58,8 +58,6 @@ $(document).ready(() => {
         exact = []
     }
     keywords = filter.replace(/"([^"]+)"/g, '').replace(/"/g, '').split(' ').filter(function(word) { return !(word in stopword) && word.length > 3})
-    console.log(keywords)
-    console.log(exact)
     if (keywords.length > 0 || exact.length > 0) {
         for (let i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("button")[0];
