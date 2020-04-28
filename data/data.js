@@ -81,10 +81,6 @@ const data =
         answer: "194"
     },
     {
-        problem: "A hemisphere of radius 3 is concentric with a hemisphere of radius 9 and the flat surface of the small hemisphere is glued to the flat surface of the larger hemisphere. See the accompanying figure. The surface area of the resulting solid can be written as aπ where a is an integer. What is a?",
-        answer: "252"
-    },
-    {
         problem: "Let f(x) = 9x2, A = (a, f(a)) for a > 0, and B = (a, 0). If the reflection of B across the line connecting A with the origin lies on the y-axis, what is 36a?",
         answer: "4"
     },
